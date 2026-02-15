@@ -18,7 +18,6 @@ A low-latency, wireless robotic crane system built with two ESP32 microcontrolle
 
 ## System
 The system consists of two independent nodes communicating over a connectionless 2.4GHz protocol:
-
 1. The Remote/Transmitter:
    - Reads analog joystick values.
    - Packages data into a C-struct.
