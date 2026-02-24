@@ -1,41 +1,35 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
+*.exe
+*.out
+*.app
+*.bin
+*.hex
+*.elf
 
-# Fortran module files
-*.mod
-*.smod
+build/
+bin/
+.ipynb_checkpoints/
 
-# Compiled Static libraries
+*.d
+*.slo
+*.lo
+*.gch
+*.pch
+*.ilk
+*.pdb
+*.dwo
+
 *.lai
 *.la
 *.a
 *.lib
+*.mod
+*.smod
 
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+.DS_Store
+Thumbs.db
